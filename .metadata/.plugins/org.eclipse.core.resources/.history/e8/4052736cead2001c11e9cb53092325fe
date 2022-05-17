@@ -1,0 +1,6 @@
+
+public class  bicicleta extends Vehiculo{
+	
+	//atributos
+	private boolean trenAterrizaje;
+}

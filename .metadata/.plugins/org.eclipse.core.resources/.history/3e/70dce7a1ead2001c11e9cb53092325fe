@@ -1,0 +1,12 @@
+
+public class  bicicleta extends Vehiculo{
+	
+	//atributos
+	private boolean cambios;
+	
+	
+	public bicicleta(float velocidad, int asientos, int orientacionRuedas, boolean cambios) {
+		super(velocidad, asientos, orientacionRuedas);
+		this.cambios = cambios;
+	}
+}

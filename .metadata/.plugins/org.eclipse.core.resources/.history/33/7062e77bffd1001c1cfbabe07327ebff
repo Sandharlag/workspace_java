@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class ejercicio4 {
+
+
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		
+		System.out.print("Introduzca primera nota: ");
+		int numero1 = keyboard.nextInt();
+		System.out.print("Introduzca primera nota: ");
+		int numero2 = keyboard.nextInt();
+		
+		
+		if (numero1 == numero2) {
+			System.out.print("No válido");
+			keyboard.close();
+			//return;
+		}
+		else {
+			for (int i = numero1; i <= numero2; i++) {
+				System.out.println(i);
+			}
+		}
+		
+		
+		
+	/*
+	* Escribe un programa que obtenga los n�meros enteros comprendidos entre dos
+	* n�meros introducidos por teclado y validados como distintos
+	*/
+		
+		
+		
+		keyboard.close();
+	}
+	}

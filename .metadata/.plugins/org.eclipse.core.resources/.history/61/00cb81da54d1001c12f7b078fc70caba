@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+	
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Introduzca un n�mero: ");
+		int numero = keyboard.nextInt();
+		
+		for (int i = numero ;i <= 1;i--);
+		System.out.print(numero);
+		
+		keyboard.close();
+	
+
+}
+}

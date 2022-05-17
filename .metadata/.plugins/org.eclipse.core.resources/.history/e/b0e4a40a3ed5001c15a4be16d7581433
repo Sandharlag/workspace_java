@@ -1,0 +1,22 @@
+package curso;
+
+public class Persona {
+
+	//aquí va la información (superclase) y la va a heredar estudiante
+	
+	//primero se crean los atributos. Para que hereden hay que ponerlos con protected
+	protected int id;
+	protected int edad;
+	protected int telefono;
+	
+	//después se crea el constructor
+	
+	public Persona (int id, int edad, int telefono) {
+		//invoca al constructor de la clase object
+		super();
+		System.out.println("Constructor de la clase Persona");
+		this.id = id;
+		this.edad = edad;
+		this.telefono = telefono;
+	}
+}

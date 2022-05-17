@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ejercicio4 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		System.out.print("Introduzca un n�mero: ");
+		int tabla = keyboard.nextInt();
+		
+		
+		for(int i = tabla ; i < 10; i++) {
+			System.out.println(i);
+		}
+	
+	
+	}
+	}
